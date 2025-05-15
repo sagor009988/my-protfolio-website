@@ -273,6 +273,10 @@ img{
   font-weight: var(--font-semi-bold);
   border-radius: .5rem;
   transition: .3s;
+  
+}
+.btn-cursor{
+  cursor: pointer;
 }
 
 .button:hover{
