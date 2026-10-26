@@ -1,100 +1,50 @@
-# 💼 Portfolio Website - Md. Sagor Hossain
+# 💼 Md. Sagor Hossain — Software Engineer Portfolio
 
-This is my personal portfolio website showcasing my skills, projects, education, and services as a Full-Stack Web Developer. Built using HTML, CSS, and Boxicons, this responsive site gives an overview of who I am and what I do.
-
-## 📌 Live Demo
-
-🌐 [View Portfolio](https://wdkammrul.github.io/My-Portfolio-/)
-
-## 📸 Preview
-
-![Website Preview](https://i.ibb.co/WGmbrnL/preview-1.png)
+Personal portfolio website of **Md. Sagor Hossain**, Software Engineer with 2+ years of professional experience at **DevXHub (devxhub.com)** (2024 — October 2026). Specialized in **TypeScript**, **React.js**, **Redux Toolkit**, **Next.js**, and scalable web engineering. Actively seeking new full-time / remote software engineering roles (BD, USA, UK & Worldwide).
 
 ---
 
-## 🧑 About Me
+## 🚀 Live Demo
 
-I am **Md. Sagor Hossain**, a passionate **MERN Stack Developer** with a strong foundation in frontend and backend technologies. I’m committed to building modern web applications, ensuring performance, responsiveness, and user experience.
-
----
-
-## 🚀 Skills
-
-### 🖥️ Frontend
-- HTML5 - 90%
-- CSS3 - 85%
-- Bootstrap 5 - 90%
-- Tailwind CSS - 95%
-- JavaScript (ES6) - 85%
-- React - 80%
-- API Integration - 85%
-
-### 🖥️ Backend
-- Node.js - 80%
-- Express.js - 85%
-- Firebase - 80%
-- MongoDB - 85%
+- 🌐 **Portfolio**: [https://sagor009988.github.io/my-protfolio-website/](https://sagor009988.github.io/my-protfolio-website/) (or deployed custom domain)
+- 📄 **Resume**: [Google Drive Resume](https://drive.google.com/file/d/1O_RrTgYumT-0eLI28EQ7r7r2sKAwDe4Y/view?usp=sharing)
+- 💼 **LinkedIn**: [https://www.linkedin.com/in/md-sagor-6971382a5/](https://www.linkedin.com/in/md-sagor-6971382a5/)
+- 🐙 **GitHub**: [https://github.com/sagor009988](https://github.com/sagor009988)
 
 ---
 
-## 🎓 Education
+## 🛠️ Tech Stack & Skills
 
-- 🎓 **Bachelor of Science (2015-2020)**  
-  University of Development Alternative  
-- 📚 **Complete Web Development Course (July 2023 - December 2023)**  
-  Programming Hero
-
----
-
-## 🛠️ Services I Offer
-
-- Web Design
-- Backend Development
-- Content Writing
+- **Frontend & State Architecture**: TypeScript, React.js, Redux Toolkit (RTK), Next.js, JavaScript (ES6+), Tailwind CSS, Bootstrap 5, HTML5/CSS3.
+- **Backend & Web Services**: Node.js, Express.js, RESTful APIs, JWT Authentication, API Security & CORS, Postman.
+- **Databases & DevOps**: MongoDB, Mongoose, Firebase Auth & Storage, Git & GitHub, Vercel, Netlify.
 
 ---
 
-## 🧠 Projects
+## 💼 Experience & Education
 
-| Project Name        | Link                                                                 |
-|---------------------|----------------------------------------------------------------------|
-| Watch Website        | [Live Preview](https://wdkammrul.github.io/Responsive-Watch-Website/) |
-| JobsHub Project      | [Live Site](https://jobshub-1fbad.web.app/)                          |
-| Restaurant Website   | [Live Preview](https://wdkammrul.github.io/Responsive-Website-Responsive/) |
-| TechZoo Project      | [Live Site](https://techzoo-49879.web.app/)                          |
-
----
-
-## 📫 Contact Me
-
-- 📧 Email: mdsagorhossain4878@gmail.com  
-- 📱 Phone: +8801311614878  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/md-sagor-6971382a5/)  
-- 🐙 [GitHub](https://github.com/sagor009988)  
-- 🌐 [Facebook](https://www.facebook.com/sohel.tashjid.1/)
+- **Software Engineer** | **DevXHub (devxhub.com)** *(2024 — October 2026)*
+  - Built scalable, enterprise-grade web applications with TypeScript, React.js, and Redux Toolkit.
+  - Collaborated with cross-functional teams in agile sprints, integrated REST APIs, conducted peer code reviews, and optimized frontend performance.
+- **Web Development Fellow** | **Programming Hero** *(July 2023 — December 2023)*
+- **Bachelor of Science (B.Sc.)** | **University Of Development Alternative (UODA)** *(2015 — 2020)*
 
 ---
 
-## 📄 Resume
+## 📂 Featured Projects
 
-📝 [Download Resume (Google Drive)](https://drive.google.com/file/d/1R0gjK42ibFdtNBY2UEbBSpKT7RWd0F_I/view?usp=sharing)
-
----
-
-## 🛠 Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- React
-- Node.js
-- Express.js
-- MongoDB
-- Firebase
-- Tailwind CSS
-- Bootstrap 5
+| Project | Description | Live Demo |
+| :--- | :--- | :--- |
+| **DiagnoEasy** | Healthcare Diagnostic & Lab Booking Platform | [Live Link](https://diagnoeasy-7c73c.web.app/) |
+| **JobsHub** | Career & Job Recruitment Portal | [Live Link](https://jobshub-1fbad.web.app/) |
+| **TechZoo** | Tech Gadgets & Electronics E-Commerce Platform | [Live Link](https://techzoo-49879.web.app/) |
+| **WatchCraft** | Luxury Timepieces Responsive Showcase | [Live Link](https://wdkammrul.github.io/Responsive-Watch-Website/) |
+| **Gourmet Dine** | Restaurant & Online Table Reservation Platform | [Live Link](https://wdkammrul.github.io/Responsive-Website-Responsive/) |
 
 ---
 
+## 📬 Contact & Inquiries
 
-
+- **Email**: [mdsagorhossain4878@gmail.com](mailto:mdsagorhossain4878@gmail.com)
+- **Phone / WhatsApp**: [+8801311614878](https://wa.me/8801311614878)
+- **Location**: Dhaka, Bangladesh *(Open to Worldwide Remote & Relocation)*

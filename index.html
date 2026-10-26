@@ -1,546 +1,1365 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="https://i.ibb.co/PZc5FpK/cut.png"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Metadata -->
+    <title>Md. Sagor Hossain | Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Md. Sagor Hossain - Software Engineer with 2+ years of professional experience at DevXHub (devxhub.com). Specialized in TypeScript, React.js, Redux Toolkit, Next.js, and modern web architectures for BD, USA, and UK opportunities."
+    />
+    <meta
+      name="keywords"
+      content="Md Sagor Hossain, Sagor Hossain, Software Engineer, DevXHub, TypeScript Developer, React Developer, Redux Developer, Next.js Developer, Web Engineer, Remote Software Engineer"
+    />
+    <meta name="author" content="Md. Sagor Hossain" />
 
-    <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Md. Sagor Hossain | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Software Engineer with 2+ years of experience at DevXHub. Specialized in TypeScript, React.js, Redux, Next.js, and scalable web engineering."
+    />
+    <meta property="og:image" content="assets/img/profile.png" />
+    <meta property="og:type" content="website" />
 
-    <!-- https://wdkammrul.github.io/My-Portfolio-/> -->
+    <!-- Favicon using professional image -->
+    <link rel="icon" type="image/png" href="assets/img/profile.png" />
+    <link rel="apple-touch-icon" href="assets/img/profile.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Libraries (Boxicons & FontAwesome) -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
-    <title>Portfolio | Md. Sagor Hossain</title>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
+
   <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
+    <!-- Ambient Background Lighting -->
+    <div class="ambient-glow" aria-hidden="true">
+      <div class="ambient-blob-1"></div>
+      <div class="ambient-blob-2"></div>
+    </div>
 
-        <div>
-          <a href="#" class="nav__logo">SAGOR</a>
-        </div>
+    <!--===== HEADER & NAVBAR =====-->
+    <header class="header">
+      <div class="container nav">
+        <a href="#home" class="nav-brand" aria-label="Sagor Hossain Portfolio">
+          <span class="nav-logo-icon">S</span>
+          <span class="nav-brand-name">Sagor <span class="gradient-text">Hossain</span></span>
+        </a>
 
-        <div class="nav__menu" id="nav-menu">
-          <div class="nav__close" id="nav-close">
-            <i class="bx bx-x"></i>
-          </div>
-
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#services" class="nav__link">Services</a>
-            </li>
-            <li class="nav__item">
-              <a href="#works" class="nav__link">Works</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
+        <nav class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
-        </div>
-      </nav>
-    </header>
 
-    <main class="l-main">
-      <!--===== HOME =====-->
-      <section class="home">
-        <div class="home__container bd-grid">
-          <div class="home__data">
-            <div class="home__img">
-              <img src="https://i.ibb.co/Wzsw8NY/cut-removebg-preview-1.png" alt="" />
-            </div>
-
-            <h1 class="home__title">MD.SAGOR HOSSAIN</h1>
-            <span class="home__profession">Web Developer || Mern stack Developer</span>
-
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/md-sagor-6971382a5/"
-                class="home__social-link"  target="_blank"
-                ><i class="bx bxl-linkedin"></i
-              ></a>
-              <a href="https://github.com/sagor009988"  target="_blank" class="home__social-link"
-                ><i class="bx bxl-github"></i
-              ></a>
-              <a
-                href="https://www.facebook.com/sohel.tashjid.1/"  target="_blank"
-                class="home__social-link"
-                ><i class="bx bxl-facebook"></i
-              ></a>
-              <!-- <a
-                href="https://www.instagram.com/wdkammrul/"
-                class="home__social-link"
-                ><i class="bx bxl-instagram"></i
-              ></a> -->
-            </div>
-
-            <!-- <a
-              download=""
-              href=""
-              class="button home__button"
-              >Download Resume</a
-            > -->
-
+          <div class="nav-actions">
             <a
-              href="https://drive.google.com/file/d/1R0gjK42ibFdtNBY2UEbBSpKT7RWd0F_I/view?usp=sharing"
+              href="https://drive.google.com/file/d/1O_RrTgYumT-0eLI28EQ7r7r2sKAwDe4Y/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
+              class="btn btn-primary btn-sm"
             >
-              <div class="button home__button btn-cursor"    
-              >
-                <button class="btn-cursor">Download Resume</button>
-              </div>
+              <i class="bx bx-download"></i> Resume
             </a>
           </div>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+            <i class="bx bx-sun"></i>
+          </button>
+          <button class="nav-toggle-btn" id="nav-toggle" aria-label="Open Navigation Menu">
+            <i class="bx bx-menu"></i>
+          </button>
         </div>
-      </section>
+      </div>
+    </header>
 
-      <!--===== ABOUT =====-->
-      <section class="about section" id="about">
-        <span class="section-sutitle"></span>
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__data">
-            <p class="about__description">
-              Passionate React Developer driven by expertise, seeking challenges, and delivering high-quality results. Committed to growth, crafting exceptional applications, and thriving in collaborative environments.
-            </p>
-            <img src="https://i.ibb.co/PZc5FpK/cut.png" alt="" class="about__img" />
-          </div>
-
-          <div>
-            <div class="about__information">
-              <h3 class="about__information-title">Information</h3>
-
-              <div class="about__information-data">
-                <i class="bx bx-user about_information-icon"></i>
-                <span>Md.Sagor Hossain</span>
+    <main>
+      <!--===== HERO SECTION =====-->
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Left Column Content -->
+            <div class="hero-content">
+              <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <span>Actively Looking for New Job • Software Engineer • Immediate Joiner</span>
               </div>
 
-              <div class="about__information-data">
-                <i class="bx bx-phone about_information-icon"></i>
-                <span>+8801311614878</span>
+              <div class="hero-intro">
+                <span>👋 Welcome to my digital workspace</span>
               </div>
 
-              <div class="about__information-data">
-                <i class="bx bx-envelope about_information-icon"></i>
-                <span>mdsagorhossain4878@gmail.com</span>
+              <h1 class="hero-title">
+                Hi, I'm <br />
+                <span class="gradient-text">Md. Sagor Hossain</span>
+              </h1>
+
+              <div class="hero-dynamic-wrapper">
+                <span class="hero-dynamic-text">Software Engineer</span>
               </div>
-            </div>
 
-            <div class="about__information">
-              <h3 class="about__information-title">Experience and support</h3>
+              <p class="hero-desc">
+                Software Engineer with professional industry experience at <strong>DevXHub (<a href="https://devxhub.com" target="_blank" rel="noreferrer" style="color: var(--accent-cyan); text-decoration: underline;">devxhub.com</a>)</strong> from <strong>2024 to October 2026</strong>.
+                Specialized in <strong>TypeScript</strong>, <strong>React.js</strong>,
+                <strong>Redux Toolkit</strong>, <strong>Next.js</strong>, and robust web architectures.
+                <strong>Actively seeking my next Software Engineer role</strong> — available for immediate start in Bangladesh, the USA, UK, or remote worldwide.
+              </p>
 
-              <div class="about__information-data">
-                <i class="bx bx-medal about_information-icon"></i>
-                <div>
-                  <span class="about__information-subtitle"
-                    >6 Months Practice</span
+              <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                  <i class="bx bx-grid-alt"></i> View Featured Projects
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1O_RrTgYumT-0eLI28EQ7r7r2sKAwDe4Y/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="btn btn-secondary"
+                >
+                  <i class="bx bx-file"></i> Get Resume
+                </a>
+                <button class="btn btn-outline copy-email-btn" title="Click to copy email">
+                  <i class="bx bx-copy"></i> Copy Email
+                </button>
+              </div>
+
+              <div class="hero-social">
+                <span class="hero-social-label">Connect:</span>
+                <div class="social-links">
+                  <a
+                    href="https://github.com/sagor009988"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="social-link"
+                    aria-label="GitHub Profile"
                   >
-                  <span class="about__information-subtitle">Experience</span>
+                    <i class="bx bxl-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/md-sagor-6971382a5/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="social-link"
+                    aria-label="LinkedIn Profile"
+                  >
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://wa.me/8801311614878"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="social-link"
+                    aria-label="WhatsApp Chat"
+                  >
+                    <i class="bx bxl-whatsapp"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/sohel.tashjid.1/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="social-link"
+                    aria-label="Facebook Profile"
+                  >
+                    <i class="bx bxl-facebook"></i>
+                  </a>
+                  <a
+                    href="mailto:mdsagorhossain4878@gmail.com"
+                    class="social-link"
+                    aria-label="Send Direct Email"
+                  >
+                    <i class="bx bx-envelope"></i>
+                  </a>
                 </div>
               </div>
+            </div>
 
-              <div class="about__information-data">
-                <i class="bx bx-briefcase about_information-icon"></i>
-                <div>
-                  <span class="about__information-subtitle">40+ Project</span>
-                  <span class="about__information-subtitle">Completed</span>
+            <!-- Right Column Profile Card -->
+            <div class="hero-visual">
+              <div class="hero-image-card">
+                <div class="hero-image-wrapper">
+                  <img
+                    src="assets/img/profile.png"
+                    alt="Md. Sagor Hossain - Software Engineer"
+                    class="hero-img"
+                  />
+                </div>
+
+                <!-- Floating Badges -->
+                <div class="floating-badge badge-top-left">
+                  <i class="fa-solid fa-code badge-icon" style="color: #3178c6;"></i>
+                  <span>TypeScript & React</span>
+                </div>
+
+                <div class="floating-badge badge-bottom-right">
+                  <i class="fa-solid fa-layer-group badge-icon" style="color: #764abc;"></i>
+                  <span>Redux Toolkit</span>
+                </div>
+
+                <div class="floating-badge badge-middle-left">
+                  <i class="bx bx-check-circle badge-icon" style="color: #10b981;"></i>
+                  <span>Looking for New Job</span>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div class="about__information-data">
-                <i class="bx bx-support about_information-icon"></i>
-                <div>
-                  <span class="about__information-subtitle">Support</span>
-                  <span class="about__information-subtitle">Online 24/7</span>
-                </div>
-              </div>
+          <!-- Key Metrics Counter Strip -->
+          <div class="metrics-strip">
+            <div class="metric-item">
+              <span class="metric-number">2+</span>
+              <span class="metric-label">Years Software Eng. Exp</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number">DevXHub</span>
+              <span class="metric-label">2024 — Oct 2026</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number">40+</span>
+              <span class="metric-label">Production & Web Projects</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number">Immediate</span>
+              <span class="metric-label">Available / Open to Work</span>
             </div>
           </div>
         </div>
       </section>
 
-      <!--===== SKILLS =====-->
-      <section class="skills section" id="skills">
-        <span class="section-subtitle">Why Choose Me</span>
-        <h2 class="section-title">My expertise Area</h2>
-
-        <div class="skills__container bd-grid">
-          <div class="skills__content">
-            <h3 class="skills__subtitle">Frontend</h3>
-
-            <div class="skills__data">
-              <span class="skills__name">Html</span>
-              <span class="skills__number">90%</span>
-              <span class="skills__bar skills__html"></span>
-            </div>
-            <div class="skills__data">
-              <span class="skills__name">CSS</span>
-              <span class="skills__number">85%</span>
-              <span class="skills__bar skills__css"></span>
-            </div>
-            <div class="skills__data">
-              <span class="skills__name">Bootstrap 5</span>
-              <span class="skills__number">90%</span>
-              <span class="skills__bar skills__bootstrap5"></span>
-            </div>
-            <div class="skills__data">
-              <span class="skills__name">Tailwind CSS</span>
-              <span class="skills__number">95%</span>
-              <span class="skills__bar skills__tailwind"></span>
-            </div>
-
-            <div class="skills__data">
-              <span class="skills__name">JavaScript</span>
-              <span class="skills__number">85%</span>
-              <span class="skills__bar skills__js"></span>
-            </div>
-            <div class="skills__data">
-              <span class="skills__name">Es6</span>
-              <span class="skills__number">85%</span>
-              <span class="skills__bar skills__Es6"></span>
-            </div>
-            <div class="skills__data">
-              <span class="skills__name">API</span>
-              <span class="skills__number">85%</span>
-              <span class="skills__bar skills__api"></span>
-            </div>
-
-            <div class="skills__data">
-              <span class="skills__name">React</span>
-              <span class="skills__number">80%</span>
-              <span class="skills__bar skills__react"></span>
-            </div>
-          </div>
-
-          <div class="skills__content">
-            <h3 class="skills__subtitle">Backend</h3>
-
-            <div class="skills__data">
-              <span class="skills__name">Node Js</span>
-              <span class="skills__number">80%</span>
-              <span class="skills__bar skills__node"></span>
-            </div>
-            <div class="skills__data">
-              <span class="skills__name">Express Js</span>
-              <span class="skills__number">85%</span>
-              <span class="skills__bar skills__express"></span>
-            </div>
-
-            <div class="skills__data">
-              <span class="skills__name">Firebase</span>
-              <span class="skills__number">80%</span>
-              <span class="skills__bar skills__firebase"></span>
-            </div>
-
-            <div class="skills__data">
-              <span class="skills__name">MongoDB</span>
-              <span class="skills__number">85%</span>
-              <span class="skills__bar skills__mongodb"></span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--===== EDUCATION =====-->
-      <section class="education section">
-        <span class="section-subtitle"> Qualification </span>
-        <h2 class="section-title">My Education</h2>
-
-        <div class="education__container bd-grid">
-          <div class="education__content">
-            <div>
-              <h3 class="education__year">2015-2020</h3>
-              <span class="education__university"
-                >University Of Development Alternative</span
-              >
-            </div>
-
-            <div class="education__time">
-              <span class="education__rounder"></span>
-              <span class="education__line"></span>
-            </div>
-
-            <div>
-              <h3 class="education__race">Bachelor of Science</h3>
-              <span class="education__education__specialty">Graduated</span>
-            </div>
-          </div>
-
-          <div class="education__content">
-            <div>
-              <h3 class="education__year">July 2023- December 2023</h3>
-              <span class="education__university">Programming-Hero</span>
-            </div>
-
-            <div class="education__time">
-              <span class="education__rounder"></span>
-              <span class="education__line"></span>
-            </div>
-
-            <div>
-              <h3 class="education__race">Complete Web Development Course</h3>
-              <span class="education__education__specialty"></span>
-            </div>
-          </div>
-
-          <!-- <div class="education__content">
-            <div>
-              <h3 class="education__year">2022-Present</h3>
-              <span class="education__university">Programming-Hero</span>
-            </div>
-
-            <div class="education__time">
-              <span class="education__rounder"></span>
-              <span class="education__line"></span>
-            </div>
-
-            <div>
-              <h3 class="education__race">Web Design</h3>
-              <span class="education__education__specialty"></span>
-            </div>
-          </div> -->
-        </div>
-      </section>
-
-      <!--===== SERVICES =====-->
-      <section class="services section" id="services">
-        <span class="section-subtitle">What I Offer</span>
-        <h2 class="section-title">My Services</h2>
-
-        <div class="services__container bd-grid">
-          <div class="services__content">
-            <i class="bx bx-code services__icon"></i>
-            <h3 class="services__title">Web Design</h3>
-            <p class="services__description">
-              This service that I offer is of high quality, and above all
-              experience that I have in the labor field for many years.
-            </p>
-          </div>
-
-          <!-- <div class="services__content">
-            <i class="bx bx-pen services__icon"></i>
-            <h3 class="services__title">Graphic Design</h3>
-            <p class="services__description">
-              This service that I offer is of high quality, and above all
-              experience that I have in the labor field for many years.
-            </p>
-          </div> -->
-
-          <!-- <div class="services__content">
-            <i class="bx bx-brush services__icon"></i>
-            <h3 class="services__title">UI/UX</h3>
-            <p class="services__description">
-              This service that I offer is of high quality, and above all
-              experience that I have in the labor field for many years.
-            </p>
-          </div> -->
-
-          <div class="services__content">
-            <i class="bx bx-server services__icon"></i>
-            <h3 class="services__title">Backend Development</h3>
-            <p class="services__description">
-              This service that I offer is of high quality, and above all
-              experience that I have in the labor field for many years.
-            </p>
-          </div>
-
-          <div class="services__content">
-            <i class="bx bx-pencil services__icon"></i>
-            <h3 class="services__title">Content Writing</h3>
-            <p class="services__description">
-              This service that I offer is of high quality, and above all
-              experience that I have in the labor field for many years.
-            </p>
-          </div>
-
-          <!-- <div class="services__content">
-            <i class="bx bx-mobile services__icon"></i>
-            <h3 class="services__title">Interface Mobile</h3>
-            <p class="services__description">
-              This service that I offer is of high quality, and above all
-              experience that I have in the labor field for many years.
-            </p>
-          </div> -->
-        </div>
-      </section>
-
-      <!--===== PROJECT IN MIND =====-->
-      <section class="project section">
-        <div class="project__container bd-grid">
-          <div class="project__data">
-            <h2 class="section-title project__title">
-              Do you have a project in mind
+      <!--===== ABOUT SECTION =====-->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">
+              Engineering Scalable, Production-Grade Software
             </h2>
-            <p class="project__description">
-              If you haver a project that you want to carry out, do not hesitate
-              and tell me what it is, and what services I can offer you, contact
-              me directly here.
+            <p class="section-desc">
+              Dedicated Software Engineer with 2+ years of hands-on experience designing,
+              developing, and deploying robust web applications with TypeScript, React, and Redux.
             </p>
-            <a href="#contact" class="button button__light">Contact Me</a>
           </div>
 
-          <img
-            src="https://i.ibb.co/Wzsw8NY/cut-removebg-preview-1.png"
-            alt=""
-            class="project__img"
-          />
+          <div class="about-grid">
+            <div class="about-card-visual">
+              <div class="about-frame glass-card">
+                <img
+                  src="assets/img/profile.png"
+                  alt="Md. Sagor Hossain Professional Photo"
+                  class="about-img"
+                />
+              </div>
+              <div class="about-experience-card">
+                <div class="exp-icon">
+                  <i class="bx bx-briefcase"></i>
+                </div>
+                <div>
+                  <div class="exp-years">Ex-DevXHub</div>
+                  <div class="exp-text">Software Engineer (2024 — Oct 2026)</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-details">
+              <h3 class="about-subtitle">
+                Software Engineer (Ex-DevXHub), actively seeking new full-time / remote engineering opportunities.
+              </h3>
+              <p class="about-paragraph">
+                I am a Software Engineer who worked at <strong>DevXHub (<a href="https://devxhub.com" target="_blank" rel="noreferrer" style="color: var(--accent-cyan);">devxhub.com</a>)</strong> from <strong>2024 to October 2026</strong>.
+                With proven commercial experience, I specialize in architecting scalable frontend systems using <strong>TypeScript</strong>, <strong>React.js</strong>,
+                <strong>Redux Toolkit</strong>, and <strong>Next.js</strong>, as well as integrating secure backend services and RESTful APIs.
+              </p>
+              <p class="about-paragraph">
+                <strong>I am currently actively looking for my next Software Engineer position.</strong> Whether joining an innovative startup or an established engineering team in Bangladesh, the USA, or the UK, I bring a commitment to type safety, clean code architecture, agile delivery, and immediate availability.
+              </p>
+
+              <!-- Core Strengths -->
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <i class="bx bx-shield-quarter highlight-icon"></i>
+                  <div>
+                    <h4 class="highlight-title">TypeScript & Strong Typing</h4>
+                    <p class="highlight-desc">Strict type safety, custom interfaces, generics, and compile-time correctness.</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <i class="bx bx-layer highlight-icon"></i>
+                  <div>
+                    <h4 class="highlight-title">Redux State Architecture</h4>
+                    <p class="highlight-desc">Predictable state flows with Redux Toolkit (RTK), slices, and RTK Query.</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <i class="bx bx-buildings highlight-icon"></i>
+                  <div>
+                    <h4 class="highlight-title">Industry Track Record (DevXHub)</h4>
+                    <p class="highlight-desc">Proven 2+ years of professional delivery in commercial software environments.</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <i class="bx bx-globe highlight-icon"></i>
+                  <div>
+                    <h4 class="highlight-title">USA, UK & BD Ready</h4>
+                    <p class="highlight-desc">Timezone alignment, fluent English communication, and agile sprint familiarity.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick Info Cards -->
+              <div class="about-info-grid">
+                <div class="info-box">
+                  <div class="info-icon"><i class="bx bx-buildings"></i></div>
+                  <div class="info-meta">
+                    <span class="info-label">Previous Company</span>
+                    <span class="info-val">DevXHub (2024 — Oct 2026)</span>
+                  </div>
+                </div>
+                <div class="info-box">
+                  <div class="info-icon"><i class="bx bx-check-circle" style="color: var(--accent-emerald);"></i></div>
+                  <div class="info-meta">
+                    <span class="info-label">Availability</span>
+                    <span class="info-val" style="color: var(--accent-emerald);">Looking for New Job / Immediate</span>
+                  </div>
+                </div>
+                <div class="info-box">
+                  <div class="info-icon"><i class="bx bx-envelope"></i></div>
+                  <div class="info-meta">
+                    <span class="info-label">Email</span>
+                    <span class="info-val">mdsagorhossain4878@gmail.com</span>
+                  </div>
+                </div>
+                <div class="info-box">
+                  <div class="info-icon"><i class="bx bx-map-pin"></i></div>
+                  <div class="info-meta">
+                    <span class="info-label">Location</span>
+                    <span class="info-val">Dhaka, Bangladesh (Remote Ready)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <!--===== WORKS =====-->
-      <section class="works section" id="works">
-        <span class="section-subtitle"></span>
-        <h2 class="section-title">Recent Works</h2>
-
-        <div class="works__container bd-grid">
-          <div class="works__img">
-            <img src="https://i.ibb.co/WGmbrnL/preview-1.png" alt="" class="" />
-
-            <div class="works__data">
-              <a
-                href="https://wdkammrul.github.io/Responsive-Watch-Website/"
-                class="works__link"
-                ><i class="bx bx-link-alt"></i
-              ></a>
-              <span class="works__title">Watch Website</span>
-            </div>
+      <!--===== SKILLS & TECH STACK SECTION =====-->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Tech Stack</span>
+            <h2 class="section-title">Core Skills & Engineering Competencies</h2>
+            <p class="section-desc">
+              My core technical competencies centered around TypeScript, Redux, React,
+              Next.js, and modern software engineering practices.
+            </p>
           </div>
 
-          <div class="works__img">
-            <img
-              src="https://i.ibb.co/g4GT3Nz/jobshub2022-cover.jpg"
-              alt=""
-              class=""
-            />
+          <div class="skills-grid">
+            <!-- Frontend & State Engineering -->
+            <div class="skill-category-card glass-card">
+              <div class="skill-category-header">
+                <div class="category-icon-box">
+                  <i class="bx bx-code-block"></i>
+                </div>
+                <h3 class="skill-category-title">Frontend & State Architecture</h3>
+              </div>
 
-            <div class="works__data">
-              <a href="https://jobshub-1fbad.web.app/" class="works__link"
-                ><i class="bx bx-link-alt"></i
-              ></a>
-              <span class="works__title">JobsHub Project</span>
+              <div class="skill-items-container">
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-code skill-icon icon-ts"></i>
+                    <span class="skill-name">TypeScript</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-layer-group skill-icon" style="color: #764abc;"></i>
+                    <span class="skill-name">Redux & Redux Toolkit</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-brands fa-react skill-icon icon-react"></i>
+                    <span class="skill-name">React.js</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-bolt skill-icon icon-next"></i>
+                    <span class="skill-name">Next.js</span>
+                  </div>
+                  <span class="skill-level-badge">Proficient</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-brands fa-js skill-icon icon-js"></i>
+                    <span class="skill-name">JavaScript (ES6+)</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-brands fa-css3-alt skill-icon icon-tailwind"></i>
+                    <span class="skill-name">Tailwind CSS</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="works__img">
-            <img
-              src="https://i.ibb.co/t8SJjV0/5ad9211c-8320-4150-bab1-d5d40c34b5e4.png"
-              alt=""
-              class=""
-            />
+            <!-- Backend & Web Architecture -->
+            <div class="skill-category-card glass-card">
+              <div class="skill-category-header">
+                <div class="category-icon-box">
+                  <i class="bx bx-server"></i>
+                </div>
+                <h3 class="skill-category-title">Backend & Web Services</h3>
+              </div>
 
-            <div class="works__data">
-              <a
-                href="https://wdkammrul.github.io/Responsive-Website-Responsive/"
-                class="works__link"
-                ><i class="bx bx-link-alt"></i
-              ></a>
-              <span class="works__title">Restaurant Website</span>
+              <div class="skill-items-container">
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-brands fa-node skill-icon icon-node"></i>
+                    <span class="skill-name">Node.js</span>
+                  </div>
+                  <span class="skill-level-badge">Proficient</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-network-wired skill-icon icon-express"></i>
+                    <span class="skill-name">Express.js</span>
+                  </div>
+                  <span class="skill-level-badge">Proficient</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-cloud-arrow-up skill-icon icon-api"></i>
+                    <span class="skill-name">RESTful APIs & Integration</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-key skill-icon" style="color: #fbbf24;"></i>
+                    <span class="skill-name">JWT & Auth Flow</span>
+                  </div>
+                  <span class="skill-level-badge">Proficient</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-shield-halved skill-icon" style="color: #38bdf8;"></i>
+                    <span class="skill-name">Security, CORS & Headers</span>
+                  </div>
+                  <span class="skill-level-badge">Proficient</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-cube skill-icon icon-postman"></i>
+                    <span class="skill-name">Postman API Testing</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="works__img">
-            <img src="https://i.ibb.co/BrQDgD8/download.png" alt="" class="" />
+            <!-- Database & Engineering Practices -->
+            <div class="skill-category-card glass-card">
+              <div class="skill-category-header">
+                <div class="category-icon-box">
+                  <i class="bx bx-data"></i>
+                </div>
+                <h3 class="skill-category-title">Databases & DevOps</h3>
+              </div>
 
-            <div class="works__data">
-              <a href="https://techzoo-49879.web.app/" class="works__link"
-                ><i class="bx bx-link-alt"></i
-              ></a>
-              <span class="works__title">TaceZoo Project</span>
-            </div>
-          </div>
+              <div class="skill-items-container">
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-leaf skill-icon icon-mongodb"></i>
+                    <span class="skill-name">MongoDB & Mongoose</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
 
-          <div class="works__img">
-            <img src="https://i.ibb.co/0MXrsqn/images.jpg" alt="" class="" />
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-fire skill-icon icon-firebase"></i>
+                    <span class="skill-name">Firebase Auth & Store</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
 
-            <div class="works__data">
-              <a href="https://diagnoeasy-7c73c.web.app/" class="works__link"
-                ><i class="bx bx-link-alt"></i
-              ></a>
-              <span class="works__title">DiagnoEasy Project</span>
-            </div>
-          </div>
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-brands fa-git-alt skill-icon icon-git"></i>
+                    <span class="skill-name">Git & GitHub Workflow</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
 
-          <div class="works__img">
-            <img src="assets/img/work6.jpg" alt="" class="" />
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-cloud skill-icon" style="color: #6366f1;"></i>
+                    <span class="skill-name">CI/CD & Cloud Deployment</span>
+                  </div>
+                  <span class="skill-level-badge">Advanced</span>
+                </div>
 
-            <div class="works__data">
-              <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
-              <span class="works__title"></span>
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-brands fa-figma skill-icon" style="color: #f24e1e;"></i>
+                    <span class="skill-name">Figma to Pixel-Perfect Code</span>
+                  </div>
+                  <span class="skill-level-badge">Proficient</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-left">
+                    <i class="fa-solid fa-mobile-screen-button skill-icon" style="color: #10b981;"></i>
+                    <span class="skill-name">Responsive Design Standards</span>
+                  </div>
+                  <span class="skill-level-badge">Mastery</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
-        <span class="section-subtitle">Contact Me</span>
-        <h2 class="section-title">Get In Touch</h2>
-
-        <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <div class="contact__inputs">
-              <input type="text" placeholder="Name" class="contact__input" />
-              <input type="mail" placeholder="Email" class="contact__input" />
+      <!--===== GLOBAL READINESS BANNER (US, UK, BD) =====-->
+      <section class="section" style="padding-top: 0; padding-bottom: 2rem;">
+        <div class="container">
+          <div class="readiness-banner glass-card">
+            <div>
+              <span class="section-tag">Global Collaboration</span>
+              <h3 class="readiness-title">
+                Software Engineering Ready for US, UK & BD Teams
+              </h3>
+              <p class="readiness-desc">
+                With 2+ years of professional experience at DevXHub, I deliver predictable,
+                tested, and type-safe software that integrates directly into your existing
+                pipelines and sprint cadence.
+              </p>
             </div>
 
-            <input type="text" placeholder="Project" class="contact__input" />
+            <div class="readiness-grid">
+              <div class="readiness-pill">
+                <i class="bx bx-time readiness-pill-icon"></i>
+                <div>
+                  <h4 class="readiness-pill-title">Timezone Flexibility</h4>
+                  <p class="readiness-pill-sub">Smooth overlap with US EST/PST and full UK BST working schedules.</p>
+                </div>
+              </div>
 
-            <textarea
-              name=""
-              id=""
-              cols="0"
-              rows="10"
-              placeholder="message"
-              class="contact"
-            ></textarea>
+              <div class="readiness-pill">
+                <i class="bx bx-conversation readiness-pill-icon"></i>
+                <div>
+                  <h4 class="readiness-pill-title">Clear Communication</h4>
+                  <p class="readiness-pill-sub">Active standup participation, detailed pull requests, and async documentation.</p>
+                </div>
+              </div>
 
-            <input
-              type="submit"
-              value="Send Message"
-              class="button contact__button"
-            />
-          </form>
+              <div class="readiness-pill">
+                <i class="bx bx-rocket readiness-pill-icon"></i>
+                <div>
+                  <h4 class="readiness-pill-title">Production Experience</h4>
+                  <p class="readiness-pill-sub">2+ years delivering at DevXHub using Git, pull requests, and modern code reviews.</p>
+                </div>
+              </div>
 
-          <div>
-            <div class="contact__info">
-              <h3 class="contact__subtitle">Call Me</h3>
-              <span class="contact__text">+8801311614878</span>
-              <span class="contact__text"></span>
+              <div class="readiness-pill">
+                <i class="bx bx-badge-check readiness-pill-icon"></i>
+                <div>
+                  <h4 class="readiness-pill-title">Work Authorization</h4>
+                  <p class="readiness-pill-sub">Ready for international contractor/B2B contracts and full-time remote roles.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== FEATURED PROJECTS SECTION =====-->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Portfolio Showcase</span>
+            <h2 class="section-title">Featured Engineering Projects</h2>
+            <p class="section-desc">
+              Explore web applications, interactive software platforms, and
+              production implementations.
+            </p>
+          </div>
+
+          <!-- Project Filter Bar -->
+          <div class="projects-filter-bar">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Applications</button>
+            <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+            <button class="filter-btn" data-filter="frontend">Frontend & UI</button>
+          </div>
+
+          <!-- Projects Grid -->
+          <div class="projects-grid">
+            <!-- Project 1: DiagnoEasy -->
+            <div class="project-card glass-card" data-category="web fullstack">
+              <div class="project-image-wrapper">
+                <span class="project-category-tag">Web Application</span>
+                <img
+                  src="https://i.ibb.co/0MXrsqn/images.jpg"
+                  alt="DiagnoEasy Diagnostic Platform"
+                  class="project-img"
+                  loading="lazy"
+                />
+                <div class="project-overlay">
+                  <div class="project-overlay-links">
+                    <a
+                      href="https://diagnoeasy-7c73c.web.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-primary btn-sm"
+                    >
+                      <i class="bx bx-link-external"></i> Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/sagor009988"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-secondary btn-sm"
+                    >
+                      <i class="bx bxl-github"></i> Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">DiagnoEasy — Diagnostic Management System</h3>
+                <p class="project-desc">
+                  A comprehensive healthcare diagnostic center web application
+                  enabling patients to book lab tests, download diagnostic reports,
+                  and admins to manage appointments and test catalogs.
+                </p>
+
+                <div class="project-features">
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>JWT-based Authentication & Protected Routes</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Multi-role Dashboard (Admin & Patient)</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Stripe Payment Integration & PDF Reports</span>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">Redux</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <a
+                    href="https://diagnoeasy-7c73c.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-primary btn-sm"
+                  >
+                    <i class="bx bx-link-external"></i> Live Preview
+                  </a>
+                  <a
+                    href="https://github.com/sagor009988"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    <i class="bx bxl-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
             </div>
 
-            <div class="contact__info">
-              <h3 class="contact__subtitle">E-mail</h3>
-              <span class="contact__text">mdsagorhossain4878@gmail.com</span>
+            <!-- Project 2: JobsHub -->
+            <div class="project-card glass-card" data-category="web fullstack">
+              <div class="project-image-wrapper">
+                <span class="project-category-tag">Career Platform</span>
+                <img
+                  src="https://i.ibb.co/g4GT3Nz/jobshub2022-cover.jpg"
+                  alt="JobsHub Recruitment Portal"
+                  class="project-img"
+                  loading="lazy"
+                />
+                <div class="project-overlay">
+                  <div class="project-overlay-links">
+                    <a
+                      href="https://jobshub-1fbad.web.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-primary btn-sm"
+                    >
+                      <i class="bx bx-link-external"></i> Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/sagor009988"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-secondary btn-sm"
+                    >
+                      <i class="bx bxl-github"></i> Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">JobsHub — Career & Recruitment Portal</h3>
+                <p class="project-desc">
+                  An intuitive job board platform connecting tech candidates with
+                  employers. Features granular job filtering, applicant tracking,
+                  resume upload, and employer post management.
+                </p>
+
+                <div class="project-features">
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Real-time Keyword & Category Search</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Employer Job Submission & Candidate Review</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Firebase Auth & Cloud Database Sync</span>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Redux</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <a
+                    href="https://jobshub-1fbad.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-primary btn-sm"
+                  >
+                    <i class="bx bx-link-external"></i> Live Preview
+                  </a>
+                  <a
+                    href="https://github.com/sagor009988"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    <i class="bx bxl-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
             </div>
 
-            <div class="contact__info">
-              <h3 class="contact__subtitle">Location</h3>
-              <span class="contact__text">Model Town,Keranigonj</span>
-              <span class="contact__text"
-                >House-12,Model Town Keranigonj,Dhaka</span
+            <!-- Project 3: TechZoo -->
+            <div class="project-card glass-card" data-category="ecommerce web">
+              <div class="project-image-wrapper">
+                <span class="project-category-tag">E-Commerce</span>
+                <img
+                  src="https://i.ibb.co/BrQDgD8/download.png"
+                  alt="TechZoo Gadget Store"
+                  class="project-img"
+                  loading="lazy"
+                />
+                <div class="project-overlay">
+                  <div class="project-overlay-links">
+                    <a
+                      href="https://techzoo-49879.web.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-primary btn-sm"
+                    >
+                      <i class="bx bx-link-external"></i> Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/sagor009988"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-secondary btn-sm"
+                    >
+                      <i class="bx bxl-github"></i> Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">TechZoo — Tech Gadget Marketplace</h3>
+                <p class="project-desc">
+                  An e-commerce web platform for computing and gadget brands.
+                  Includes product filtering, dynamic cart calculation, user
+                  ratings, and order fulfillment tracking.
+                </p>
+
+                <div class="project-features">
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Brand & Category Product Filtering</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Interactive Cart & Checkout Workflow</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Responsive Mobile Commerce Experience</span>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <a
+                    href="https://techzoo-49879.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-primary btn-sm"
+                  >
+                    <i class="bx bx-link-external"></i> Live Preview
+                  </a>
+                  <a
+                    href="https://github.com/sagor009988"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    <i class="bx bxl-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4: WatchCraft -->
+            <div class="project-card glass-card" data-category="frontend ecommerce">
+              <div class="project-image-wrapper">
+                <span class="project-category-tag">UI / Frontend</span>
+                <img
+                  src="https://i.ibb.co/WGmbrnL/preview-1.png"
+                  alt="Luxury Watch Website"
+                  class="project-img"
+                  loading="lazy"
+                />
+                <div class="project-overlay">
+                  <div class="project-overlay-links">
+                    <a
+                      href="https://wdkammrul.github.io/Responsive-Watch-Website/"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-primary btn-sm"
+                    >
+                      <i class="bx bx-link-external"></i> Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">WatchCraft — Luxury Timepieces Store</h3>
+                <p class="project-desc">
+                  High-converting luxury product landing page featuring bespoke
+                  animations, product zoom, micro-interactions, and mobile-optimized
+                  design tokens.
+                </p>
+
+                <div class="project-features">
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Smooth Scroll Animations & Sticky Nav</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Ultra-fast 99+ Lighthouse Score</span>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript ES6</span>
+                  <span class="tech-tag">Responsive UX</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <a
+                    href="https://wdkammrul.github.io/Responsive-Watch-Website/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-primary btn-sm"
+                  >
+                    <i class="bx bx-link-external"></i> Live Preview
+                  </a>
+                  <a
+                    href="https://github.com/sagor009988"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    <i class="bx bxl-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5: Gourmet Dine -->
+            <div class="project-card glass-card" data-category="frontend">
+              <div class="project-image-wrapper">
+                <span class="project-category-tag">UI / Frontend</span>
+                <img
+                  src="https://i.ibb.co/t8SJjV0/5ad9211c-8320-4150-bab1-d5d40c34b5e4.png"
+                  alt="Restaurant Website"
+                  class="project-img"
+                  loading="lazy"
+                />
+                <div class="project-overlay">
+                  <div class="project-overlay-links">
+                    <a
+                      href="https://wdkammrul.github.io/Responsive-Website-Responsive/"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="btn btn-primary btn-sm"
+                    >
+                      <i class="bx bx-link-external"></i> Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">Gourmet Dine — Food & Restaurant Web App</h3>
+                <p class="project-desc">
+                  Interactive restaurant web portal with dynamic menu showcasing,
+                  special chef offerings, table reservation interface, and customer
+                  testimonials.
+                </p>
+
+                <div class="project-features">
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Interactive Menu Category Tabs</span>
+                  </div>
+                  <div class="project-feature-item">
+                    <i class="bx bx-check"></i>
+                    <span>Online Table Reservation Flow</span>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Mobile First</span>
+                </div>
+
+                <div class="project-footer-actions">
+                  <a
+                    href="https://wdkammrul.github.io/Responsive-Website-Responsive/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-primary btn-sm"
+                  >
+                    <i class="bx bx-link-external"></i> Live Preview
+                  </a>
+                  <a
+                    href="https://github.com/sagor009988"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn btn-secondary btn-sm"
+                  >
+                    <i class="bx bxl-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== EXPERIENCE & EDUCATION SECTION =====-->
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Career Milestones</span>
+            <h2 class="section-title">Professional Experience & Education</h2>
+            <p class="section-desc">
+              Track record of commercial software engineering at DevXHub, intensive bootcamp training,
+              and academic science qualification.
+            </p>
+          </div>
+
+          <div class="timeline-grid">
+            <!-- Experience Column -->
+            <div class="timeline-column">
+              <div class="timeline-col-header">
+                <i class="bx bx-briefcase-alt-2 timeline-col-icon"></i>
+                <h3 class="timeline-col-title">Professional Work Experience</h3>
+              </div>
+
+              <div class="timeline-list">
+                <!-- DevXHub Position -->
+                <div class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <span class="timeline-date">2024 — October 2026</span>
+                  <h4 class="timeline-role">Software Engineer</h4>
+                  <div class="timeline-org">
+                    <a href="https://devxhub.com" target="_blank" rel="noreferrer" style="color: var(--accent-cyan); text-decoration: underline;">DevXHub (devxhub.com)</a>
+                  </div>
+                  <p class="timeline-desc">
+                    Worked as a Software Engineer at DevXHub from 2024 to October 2026, building scalable, enterprise-grade web applications.
+                    Architected complex client-side applications with <strong>TypeScript</strong>, <strong>React.js</strong>,
+                    and <strong>Redux Toolkit</strong>. Collaborated with cross-functional teams in agile sprints,
+                    integrated REST APIs, conducted code reviews, and optimized frontend performance and type safety.
+                  </p>
+                </div>
+
+                <!-- Programming Hero Fellowship -->
+                <div class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <span class="timeline-date">July 2023 — Dec 2023</span>
+                  <h4 class="timeline-role">Web Development Fellow / Intern</h4>
+                  <div class="timeline-org">Programming Hero</div>
+                  <p class="timeline-desc">
+                    Completed 600+ hours of software development practice, mastering modern JavaScript/TypeScript,
+                    React state patterns, REST API endpoints, database modeling, and team project collaboration.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Education Column -->
+            <div class="timeline-column">
+              <div class="timeline-col-header">
+                <i class="bx bx-graduation timeline-col-icon"></i>
+                <h3 class="timeline-col-title">Formal Education</h3>
+              </div>
+
+              <div class="timeline-list">
+                <div class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <span class="timeline-date">2015 — 2020</span>
+                  <h4 class="timeline-role">Bachelor of Science (B.Sc.)</h4>
+                  <div class="timeline-org">University Of Development Alternative (UODA)</div>
+                  <p class="timeline-desc">
+                    Graduated with a strong analytical foundation in computational science,
+                    algorithms, problem solving, mathematics, and structured methodologies.
+                  </p>
+                </div>
+
+                <div class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <span class="timeline-date">2023</span>
+                  <h4 class="timeline-role">Complete Web Development Certification</h4>
+                  <div class="timeline-org">Programming Hero Institute</div>
+                  <p class="timeline-desc">
+                    Comprehensive full-stack program covering modern React architecture,
+                    REST API design, cloud deployment, and software best practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SERVICES SECTION =====-->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Value Proposition</span>
+            <h2 class="section-title">What I Bring to Your Engineering Team</h2>
+            <p class="section-desc">
+              Professional software engineering services designed to help companies in
+              Bangladesh, the US, UK, and worldwide scale their digital products.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card glass-card">
+              <div class="service-icon-box">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3 class="service-title">Software Engineering & Architecture</h3>
+              <p class="service-desc">
+                Engineering clean, robust, and maintainable software systems using
+                TypeScript and React. Focused on modularity, predictable data flow,
+                and high testability.
+              </p>
+            </div>
+
+            <div class="service-card glass-card">
+              <div class="service-icon-box">
+                <i class="bx bx-layer"></i>
+              </div>
+              <h3 class="service-title">State Management & Redux Architecture</h3>
+              <p class="service-desc">
+                Architecting scalable state layers using Redux Toolkit (RTK), custom middleware,
+                normalized stores, and caching strategies for complex data-heavy web applications.
+              </p>
+            </div>
+
+            <div class="service-card glass-card">
+              <div class="service-icon-box">
+                <i class="bx bx-data"></i>
+              </div>
+              <h3 class="service-title">RESTful APIs & Service Integration</h3>
+              <p class="service-desc">
+                Design and integration of performant, secure RESTful APIs with JWT auth,
+                structured error handling, schema validations, and MongoDB backend logic.
+              </p>
+            </div>
+
+            <div class="service-card glass-card">
+              <div class="service-icon-box">
+                <i class="bx bx-tachometer"></i>
+              </div>
+              <h3 class="service-title">Performance & Core Web Vitals</h3>
+              <p class="service-desc">
+                Optimization of render pipelines, bundle size reduction, code splitting,
+                lazy loading, and Core Web Vitals to deliver ultra-fast user experiences.
+              </p>
+            </div>
+
+            <div class="service-card glass-card">
+              <div class="service-icon-box">
+                <i class="bx bx-layout"></i>
+              </div>
+              <h3 class="service-title">Modern Frontend & Design Systems</h3>
+              <p class="service-desc">
+                Translating Figma designs into accessible, responsive Tailwind CSS and
+                React component libraries with fluid micro-interactions and cross-browser support.
+              </p>
+            </div>
+
+            <div class="service-card glass-card">
+              <div class="service-icon-box">
+                <i class="bx bx-git-repo-forked"></i>
+              </div>
+              <h3 class="service-title">Agile Delivery & Code Auditing</h3>
+              <p class="service-desc">
+                Experienced in fast-paced sprint cycles, peer code reviews, Git branching
+                models, automated CI/CD deployments, and continuous refactoring.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT SECTION =====-->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-desc">
+              Have an open Software Engineer role, project inquiry, or want to discuss an
+              opportunity? Reach out directly and I'll respond promptly.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left Contact Info Panel -->
+            <div class="contact-info-panel">
+              <!-- Live Timezone Card -->
+              <div class="timezone-card">
+                <div class="timezone-left">
+                  <span class="timezone-label">Current Local Time (Dhaka)</span>
+                  <span class="timezone-sub">Available for global timezones</span>
+                </div>
+                <div class="timezone-time" id="live-clock">Loading...</div>
+              </div>
+
+              <!-- Company & Position Card -->
+              <div class="contact-channel-card">
+                <div class="channel-left">
+                  <div class="channel-icon" style="color: #06b6d4;"><i class="bx bx-buildings"></i></div>
+                  <div class="channel-info">
+                    <h4>Work Experience & Status</h4>
+                    <p>Ex-DevXHub (2024 — Oct 2026) • Looking for New Job</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Email Channel -->
+              <div class="contact-channel-card">
+                <div class="channel-left">
+                  <div class="channel-icon"><i class="bx bx-envelope"></i></div>
+                  <div class="channel-info">
+                    <h4>Direct Email</h4>
+                    <p>mdsagorhossain4878@gmail.com</p>
+                  </div>
+                </div>
+                <button class="copy-btn copy-email-btn" title="Copy Email">
+                  <i class="bx bx-copy"></i> Copy
+                </button>
+              </div>
+
+              <!-- Phone & WhatsApp Channel -->
+              <a
+                href="https://wa.me/8801311614878"
+                target="_blank"
+                rel="noreferrer"
+                class="contact-channel-card"
               >
+                <div class="channel-left">
+                  <div class="channel-icon" style="color: #25d366;">
+                    <i class="bx bxl-whatsapp"></i>
+                  </div>
+                  <div class="channel-info">
+                    <h4>Phone & WhatsApp</h4>
+                    <p>+8801311614878</p>
+                  </div>
+                </div>
+                <span class="copy-btn"><i class="bx bx-chat"></i> Chat</span>
+              </a>
+
+              <!-- LinkedIn Channel -->
+              <a
+                href="https://www.linkedin.com/in/md-sagor-6971382a5/"
+                target="_blank"
+                rel="noreferrer"
+                class="contact-channel-card"
+              >
+                <div class="channel-left">
+                  <div class="channel-icon" style="color: #0077b5;">
+                    <i class="bx bxl-linkedin"></i>
+                  </div>
+                  <div class="channel-info">
+                    <h4>LinkedIn Profile</h4>
+                    <p>Connect with Md. Sagor</p>
+                  </div>
+                </div>
+                <span class="copy-btn"><i class="bx bx-link-external"></i> View</span>
+              </a>
+
+              <!-- Location Channel -->
+              <div class="contact-channel-card">
+                <div class="channel-left">
+                  <div class="channel-icon"><i class="bx bx-map-pin"></i></div>
+                  <div class="channel-info">
+                    <h4>Location & Relocation</h4>
+                    <p>Dhaka, Bangladesh • Open to Worldwide Remote</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Contact Form Card -->
+            <div class="contact-form-card glass-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">
+                Fill out the form below and it will immediately generate an email draft for quick communication.
+              </p>
+
+              <form id="contact-form" class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Your Name *</label>
+                    <input
+                      type="text"
+                      id="name"
+                      class="form-input"
+                      placeholder="e.g. John Doe / Hiring Manager"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="form-label">Your Email *</label>
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-input"
+                      placeholder="e.g. recruiter@company.com"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject / Role *</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    class="form-input"
+                    placeholder="e.g. Software Engineer Position / Project Discussion"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message *</label>
+                  <textarea
+                    id="message"
+                    class="form-input"
+                    rows="5"
+                    placeholder="Tell me about the engineering role, project requirements, timeline, or inquiries..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <i class="bx bx-paper-plane"></i> Send Message
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -548,33 +1367,85 @@
     </main>
 
     <!--===== FOOTER =====-->
-    <footer class="footer section">
-      <div class="footer__container bd-grid">
-        <h1 class="footer__title">Md.Sagor Hossain</h1>
-        <p class="footer__description">
-          I am Md. Sagor Hossain and this is my personal website, consult me here.
-        </p>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h3>Md. Sagor Hossain</h3>
+            <p>
+              Software Engineer at DevXHub (<a href="https://devxhub.com" target="_blank" rel="noreferrer" style="color: var(--accent-cyan);">devxhub.com</a>).
+              Building type-safe, human-centered, scalable web applications with TypeScript, React, and Redux.
+            </p>
+          </div>
 
-        <div class="footer__social">
-          <a href="https://github.com/sagor009988" class="footer__link"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://www.facebook.com/sohel.tashjid.1/" class="footer__link"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/md-sagor-6971382a5/" class="footer__link"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
+          <ul class="footer-nav">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#experience" class="footer-link">Experience</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/sagor009988"
+              target="_blank"
+              rel="noreferrer"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/md-sagor-6971382a5/"
+              target="_blank"
+              rel="noreferrer"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a
+              href="https://wa.me/8801311614878"
+              target="_blank"
+              rel="noreferrer"
+              class="social-link"
+              aria-label="WhatsApp"
+            >
+              <i class="bx bxl-whatsapp"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/sohel.tashjid.1/"
+              target="_blank"
+              rel="noreferrer"
+              class="social-link"
+              aria-label="Facebook"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+          </div>
         </div>
 
-        <p class="footer__copy">
-          Copyright © 2023 - All right reserved by
-          <a class="" href="#about">SAGOR</a>
-        </p>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Md. Sagor Hossain. Software Engineer. Crafted with clean code & modern design.
+          </p>
+          <a href="#home" class="back-to-top" aria-label="Back to Top">
+            <i class="bx bx-chevron-up"></i>
+          </a>
+        </div>
       </div>
     </footer>
 
-    <!--===== MAIN JS =====-->
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="status" aria-live="polite">
+      <i class="bx bx-check-circle toast-icon"></i>
+      <span id="toast-message">Action successful</span>
+    </div>
+
+    <!-- Main JavaScript -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
